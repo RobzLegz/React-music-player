@@ -36,15 +36,3 @@ function LibrarySong({song, songs, setCurrentSong, id, audioRef, isPlaying, setS
 };
 
 export default LibrarySong;
-
-// export const playAudio = (isPlaying, audioRef) => {
-//     if (isPlaying){
-//         const playPromise = audioRef.current.play();
-//         if (playPromise !== undefined) { 
-//             playPromise.then((audio) => {
-//                 audioRef.current.play();
-//             });
-//         }
-//     }
-// };
-
